@@ -13,8 +13,8 @@ service = build("sheets", "v4", credentials=credentials)
 
 # Google Sheets API 호출
 SPREADSHEET_ID = "YOURID"  # 스프레드시트 ID
-RANGE_SERVER = "Server!A1:Z10"  # Server 데이터 범위
-RANGE_EXCEPTION = "Exception!A1:Z10"  # Exception 데이터 범위
+RANGE_SERVER = "Server_A!A1:Z10"  # Server 데이터 범위
+RANGE_EXCEPTION = "Exception_A!A1:Z10"  # Exception 데이터 범위
 
 
 def get_gpu_user_mappings():
